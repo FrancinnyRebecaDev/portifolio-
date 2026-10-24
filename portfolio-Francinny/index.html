@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1020">
+    <meta name="description" content="Portfólio de Francinny, estudante de Desenvolvimento de Sistemas e desenvolvedora front-end em formação.">
+    <title>Francinny | Desenvolvedora Front-end</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho" id="header">
+        <a class="logo" href="#inicio" aria-label="Francinny — início">&lt;Francinny /&gt;</a>
+        <button class="botao-menu" id="btn-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+            <span aria-hidden="true">☰</span>
+        </button>
+        <nav class="navegacao" aria-label="Navegação principal">
+            <ul id="menu-principal">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#servicos">Atuação</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li>
+                    <button class="botao-tema" id="btn-tema" type="button" aria-label="Ativar tema claro" title="Ativar tema claro">
+                        <span aria-hidden="true">☀️</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <a class="botao-cabecalho" href="#contato">Vamos conversar</a>
+    </header>
+
+    <main>
+        <section class="hero secao" id="inicio" aria-labelledby="titulo-principal">
+            <div class="hero-conteudo">
+                <span class="saudacao" id="saudacao">Olá!</span>
+                <h1 id="titulo-principal">Oi, sou a Francinny.<br><span class="destaque">Desenvolvedora front-end em formação.</span></h1>
+                <p>Estudo Desenvolvimento de Sistemas no SENAC MedTec, em Natal. Gosto de criar páginas acessíveis, responsivas e cuidadosas em cada detalhe.</p>
+                <div class="hero-botoes">
+                    <a href="#projetos" class="botao">Conheça meus projetos</a>
+                    <a href="#sobre" class="link-secundario">Saiba mais sobre mim <span aria-hidden="true">↓</span></a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-monograma">
+                    <img class="foto-perfil" src="WhatsApp_Image_2026-10-23_at_9.45.24_PM-removebg-preview.png" alt="Foto de Francinny">
+                    <small>Desenvolvimento front-end</small>
+                </div>
+            </div>
+        </section>
+
+        <div class="faixa-destaque" aria-label="Principais tecnologias">
+            <span>HTML semântico</span>
+            <span>CSS responsivo</span>
+            <span>JavaScript</span>
+            <span>Aprendizado contínuo</span>
+        </div>
+
+        <section class="sobre secao" id="sobre" aria-labelledby="titulo-sobre">
+            <div class="sobre-foto">
+                <div class="avatar-monograma avatar-sobre" role="img" aria-label="Avatar ilustrado com a inicial F, de Francinny">
+                    <span>F</span>
+                    <small>Estudante de tecnologia</small>
+                </div>
+            </div>
+            <div class="sobre-conteudo">
+                <span class="sobretitulo">Um pouco sobre mim</span>
+                <h2 id="titulo-sobre">Tecnologia com curiosidade e propósito.</h2>
+                <p>Sou estudante do curso Técnico em Desenvolvimento de Sistemas do SENAC MedTec, em Natal (RN). A curiosidade sobre como as páginas funcionam e o interesse em transformar ideias em interfaces me aproximaram da tecnologia e do desenvolvimento front-end.</p>
+                <p>Tenho praticado HTML semântico, CSS e JavaScript em projetos de estudo. Quero aprofundar meus conhecimentos em JavaScript, acessibilidade e boas práticas de desenvolvimento, além de aprender e colaborar em uma equipe de tecnologia.</p>
+                <a class="link-secundario" href="#contato">Entre em contato <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <section class="secao" id="habilidades" aria-labelledby="titulo-habilidades">
+            <div class="cabecalho-secao">
+                <span class="sobretitulo">O que estou aprendendo</span>
+                <h2 id="titulo-habilidades">Minhas habilidades</h2>
+                <p>Conhecimentos que desenvolvo nos estudos e em projetos práticos.</p>
+            </div>
+            <div class="habilidades-grid">
+                <article class="card-habilidade">
+                    <span class="numero-card" aria-hidden="true">01</span>
+                    <h3>HTML5 semântico</h3>
+                    <span class="nivel confortavel">Praticando</span>
+                </article>
+                <article class="card-habilidade">
+                    <span class="numero-card" aria-hidden="true">02</span>
+                    <h3>CSS3, Flexbox e Grid</h3>
+                    <span class="nivel confortavel">Praticando</span>
+                </article>
+                <article class="card-habilidade">
+                    <span class="numero-card" aria-hidden="true">03</span>
+                    <h3>JavaScript</h3>
+                    <span class="nivel praticando">Em aprendizado</span>
+                </article>
+                <article class="card-habilidade">
+                    <span class="numero-card" aria-hidden="true">04</span>
+                    <h3>Git e GitHub</h3>
+                    <span class="nivel praticando">Em aprendizado</span>
+                </article>
+                <article class="card-habilidade">
+                    <span class="numero-card" aria-hidden="true">05</span>
+                    <h3>Figma e UI/UX</h3>
+                    <span class="nivel confortavel">Praticando</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao secao-projetos" id="projetos" aria-labelledby="titulo-projetos">
+            <div class="cabecalho-secao">
+                <span class="sobretitulo">Prática e criatividade</span>
+                <h2 id="titulo-projetos">Projetos em destaque</h2>
+                <p>Exercícios e estudos para transformar conhecimento em experiências digitais.</p>
+            </div>
+            <div class="filtro-container" role="group" aria-label="Filtrar projetos">
+                <button class="filtro-btn ativo" type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+                <button class="filtro-btn" type="button" data-filtro="html" aria-pressed="false">HTML e CSS</button>
+                <button class="filtro-btn" type="button" data-filtro="js" aria-pressed="false">JavaScript</button>
+            </div>
+            <div id="grade-projetos" class="projetos-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="secao" id="servicos" aria-labelledby="titulo-servicos">
+            <div class="cabecalho-secao">
+                <span class="sobretitulo">Como posso contribuir</span>
+                <h2 id="titulo-servicos">Áreas de interesse</h2>
+                <p>Temas nos quais quero continuar aprendendo e colaborando.</p>
+            </div>
+            <div class="servicos-grid">
+                <article class="card-servico">
+                    <span class="icone-servico" aria-hidden="true">01</span>
+                    <h3>Desenvolvimento front-end</h3>
+                    <p>Criação de interfaces com HTML, CSS e JavaScript, com foco em organização e acessibilidade.</p>
+                </article>
+                <article class="card-servico">
+                    <span class="icone-servico" aria-hidden="true">02</span>
+                    <h3>Design de interfaces</h3>
+                    <p>Estudo de hierarquia visual e prototipação de experiências digitais simples e intuitivas.</p>
+                </article>
+                <article class="card-servico">
+                    <span class="icone-servico" aria-hidden="true">03</span>
+                    <h3>Layouts responsivos</h3>
+                    <p>Construção de páginas que se adaptam a diferentes tamanhos de tela e dispositivos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao contato" id="contato" aria-labelledby="titulo-contato">
+            <div class="cabecalho-secao">
+                <span class="sobretitulo">Vamos conversar</span>
+                <h2 id="titulo-contato">Entre em contato</h2>
+                <p>Estou aberta a conversar sobre oportunidades de estágio, colaboração e projetos.</p>
+            </div>
+            <form id="form-contato" novalidate>
+                <div class="grupo-formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Como podemos chamar você?" aria-describedby="erro-nome" required>
+                    <span class="erro" id="erro-nome" aria-live="polite"></span>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="voce@exemplo.com" aria-describedby="erro-email" required>
+                    <span class="erro" id="erro-email" aria-live="polite"></span>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" minlength="20" placeholder="Conte um pouco sobre o que você tem em mente (mínimo de 20 caracteres)." aria-describedby="erro-mensagem" required></textarea>
+                    <span class="erro" id="erro-mensagem" aria-live="polite"></span>
+                </div>
+                <div class="grupo-formulario checkbox-grupo">
+                    <input type="checkbox" id="consentimento" name="consentimento" aria-describedby="aviso-privacidade erro-consentimento" required>
+                    <label for="consentimento">Autorizo o uso dos dados informados somente para responder a esta mensagem.</label>
+                    <span class="erro" id="erro-consentimento" aria-live="polite"></span>
+                </div>
+                <p class="aviso-formulario" id="aviso-privacidade">Seus dados serão usados exclusivamente para retorno de contato. O formulário é demonstrativo e não envia nem armazena as informações.</p>
+                <button type="submit" class="botao">Enviar mensagem</button>
+                <p id="sucesso-msg" class="mensagem-formulario" role="status" aria-live="polite" hidden></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; <span id="ano-atual">2026</span> Francinny. Feito com dedicação.</p>
+        <a href="#inicio" id="btn-topo" class="link-topo escondido">Voltar ao início <span aria-hidden="true">↑</span></a>
+    </footer>
+</body>
+</html>
